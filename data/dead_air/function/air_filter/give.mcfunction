@@ -1,0 +1,1 @@
+give @s item_frame[item_name="Air Filter",item_model="dead_air:air_filter",entity_data={id:item_frame,Tags:["air_filter"],Silent:true,Invisible:true}]

@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:void_air",
+    "#minecraft:replaceable",
+    "minecraft:tall_grass",
+    "torch",
+    "wall_torch",
+    "#all_signs",
+    "#all_hanging_signs",
+    "#crops",
+    "#small_flowers",
+    "#flowers",
+    "flower_pot",
+    "#copper_golem_statues",
+    "#beds"
+  ]
+}

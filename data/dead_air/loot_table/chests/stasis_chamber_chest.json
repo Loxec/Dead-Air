@@ -1,0 +1,205 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "modifier": [],
+                    "name": "minecraft:leather",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": [],
+                    "name": "minecraft:iron_ingot",
+                    "weight": 12
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": 1
+                    },
+                    "name": "minecraft:glass",
+                    "weight": 8
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "Gas Mask",
+                                "minecraft:item_model": "dead_air:gas_mask",
+                                "minecraft:lore": [
+                                    {
+                                        "text": "Can only be removed in survival",
+                                        "color": "dark_aqua"
+                                    },
+                                    "12000mB 02"
+                                ],
+                                "minecraft:unbreakable": {},
+                                "minecraft:custom_data": {
+                                    "gas_mask": true,
+                                    "oxygen": 12000
+                                },
+                                "minecraft:equippable": {
+                                    "slot": "head",
+                                    "asset_id": "dead_air:hazmat",
+                                    "equip_sound": "minecraft:intentionally_empty",
+                                    "dispensable": true,
+                                    "swappable": true,
+                                    "equip_on_interact": true
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ],
+                    "name": "minecraft:leather_helmet",
+                    "weight": 12
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": 1
+                    },
+                    "name": "minecraft:redstone",
+                    "weight": 12
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": 1
+                    },
+                    "name": "minecraft:golden_apple",
+                    "weight": 10
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 5,
+                            "min": 1
+                        }
+                    },
+                    "name": "minecraft:sand"
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 6,
+                            "min": 3
+                        }
+                    },
+                    "name": "minecraft:glowstone"
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 5,
+                            "min": 2
+                        }
+                    },
+                    "name": "minecraft:raw_iron_block"
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 7,
+                            "min": 2
+                        }
+                    },
+                    "name": "minecraft:oak_log"
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 3,
+                            "min": 1
+                        }
+                    },
+                    "name": "minecraft:leather"
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 17,
+                            "min": 5
+                        }
+                    },
+                    "name": "minecraft:iron_nugget"
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 8,
+                            "min": 3
+                        }
+                    },
+                    "name": "minecraft:string"
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 5,
+                            "min": 2
+                        }
+                    },
+                    "name": "minecraft:porkchop"
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 5,
+                            "min": 2
+                        }
+                    },
+                    "name": "minecraft:cooked_porkchop"
+                }
+            ],
+            "rolls": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 3
+            }
+        }
+    ],
+    "random_sequence": "minecraft:chests/bastion_hoglin_stable"
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "III",
+        "ILI",
+        "III"
+    ],
+    "key": {
+        "I": "minecraft:iron_ingot",
+        "L": "leather"
+    },
+    "result": {
+        "id": "minecraft:item_frame",
+        "components": {
+            "minecraft:item_name": "Air Filter",
+            "minecraft:item_model": "dead_air:air_filter",
+            "minecraft:entity_data": {
+                "id": "item_frame",
+                "Silent": true,
+                "Tags": [
+                    "air_filter"
+                ],
+                "Invisible": true
+            }
+        },
+        "count": 1
+    }
+}

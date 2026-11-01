@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "III",
+        "LGL",
+        "III"
+    ],
+    "key": {
+        "I": "minecraft:iron_ingot",
+        "G": "glass",
+        "L": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:item_frame",
+        "components": {
+            "minecraft:item_name": "Oxygenator",
+            "minecraft:item_model": "dead_air:oxygenator_off",
+            "minecraft:entity_data": {
+                "id": "item_frame",
+                "Silent": true,
+                "Tags": [
+                    "oxygenator"
+                ],
+                "Invisible": true
+            }
+        },
+        "count": 1
+    }
+}

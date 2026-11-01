@@ -1,0 +1,1 @@
+give @s item_frame[item_name="Oxygenator",item_model="dead_air:oxygenator_off",entity_data={id:item_frame,Tags:["oxygenator"],Silent:true,Invisible:true}]
